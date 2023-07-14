@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: MaggiSansRegular,Arial;
+}
+.navbar {
+    background-color: #ffffff; 
+    height: 100%; 
+    width: 100px; 
+    position: fixed;
+    left: 0; 
+  }
+  .navbar .background{
+    height: 165px;
+    width: 145%;
+    margin-left: -16px;
+    margin-top: -9px;
+    position: relative;
+  }
+  .navbar .logo{
+    position: absolute;
+    top:45px ;
+    right: -20px;
+    height: 60px;
+    width: 90px;
+  }
+  .navbar img{
+    height: 24px;
+    width: 24px;
+  }
+  .navbar ul{
+    display: block; 
+    color: #787474;
+    padding: 10px; 
+    list-style-type:none;
+    text-align: center;
+    font-size: 12px;
+  }
+  li{
+    margin-bottom:55px;
+  }
+  #home{
+    background-image: url("https://www.maggi.in/sites/default/files/styles/home_stage_1500_700/public/MicrosoftTeams-image.png?h=4f5b30f1&itok=u2Yo5gZ-");
+    background-size:cover;
+    margin-left: 100px;
+    height:650px;
+    width: 1420px;
+  }
+  #home h1{
+    color: #ffffff;
+    font-size: 47px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 350px 49px 350px;
+    padding-top: 120px;
+  }
+  input{
+    height: 90px;
+    width: 390px;
+    border:none;
+    font-size:22px;
+    text-align: center;
+  }
+  #search button{
+    background-color: #fff33E;
+    height: 90px;
+    width:90px;
+    border:none;
+  }
+  #search{
+    margin: 10px 470px;
+  }
+  #buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 37px 244px;
+  }
+  #buttons button{
+    background-color: rgba(255,255, 255, 0.8);
+    color: #564f4f;
+    font-weight: 600;
+    height: 50px;
+    padding: 13px 30px;
+    font-size: 16px;
+    border-radius: 7px;
+    border:none;
+  }
+ #heading h2{
+    margin: 20px 0 20px 240px;
+    font-size: 50px;
+ }
+ h5{
+   color: black;
+   font-size:26px;
+   font-weight: 400;
+ }
+ .checked{
+  color: #fff33E;
+ }
+ .unchecked{
+  color: #c1bcbc;
+ }
+ #recipeButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+ }
+ #recipeButton button:hover{
+  background-color: yellow;
+  color:#000;
+ } 
+ .brownButton{
+  color: white;
+  background-color: #3e2b1aff;
+  border: none;
+  height: 70px;
+  padding: 20px;
+  font-size: 20px;
+ }
+ .row button:hover{
+  background-color: yellow;
+  color:#000;
+ }
+.sunday img{
+  float:left ;
+}
+#sundayFunday{
+  border: 4px solid rgb(224, 224, 224);
+  height: 504px;
+  font-size: 26px;
+  padding-left: 62%;
+  padding-top: 80px;
+}
+#sundayFunday button{
+  color: white;
+  background-color: #3e2b1aff;
+  border: none;
+  height: 70px;
+  width: 241px;
+  padding: 20px;
+  font-size: 20px;
+ }
+ #sundayFunday button:hover{
+  background-color: yellow;
+  color:#000;
+ }
+ #sundayFunday p{
+    font-weight:400;
+    line-height: 24px;
+    color: #999999;
+    font-size: 18px;
+    margin: 40px 0;
+ }
+ #sundayFunday h2{
+  font-size: 44px;
+ }
+ #home-section{
+  background-image: url('https://www.maggi.in/sites/default/files/styles/maggi_teaser_full_desktop/public/A42I7745%281082x461%29px_0.jpg?h=cc530b4d&itok=MKuiwx5c');
+  background-size: cover;
+  height: 500px;
+}
+.light-overlay{
+  background-color: rgba(255,255, 255, 0.2);
+  height: 500px;
+}
+footer{
+  background-color:#3e2b1aff;
+  height: 300px;
+}
+footer .container{
+  display: flex;
+  padding-top: 80px;
+}
+footer .container div{
+  margin-right: 30px;
+  background-color: rgba(255,255, 255, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+}
+footer .middle div{
+    display:flex;
+    justify-content: right;
+}
