@@ -122,7 +122,9 @@
   color:#000;
  }
 .sunday img{
-  float:left ;
+  float:left;
+   width:500px;
+   height: 500px;
 }
 #sundayFunday{
   border: 4px solid rgb(224, 224, 224);
